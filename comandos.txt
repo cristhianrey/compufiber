@@ -1,0 +1,46 @@
+  sudo pacman -S ruby
+  394  gem
+  395  gem install jekyll
+  396  gem 'rdoc'
+  397  bundle install
+  398  gem install rdoc
+  399  vim .bashrc 
+  400  vim ~/.profile
+  401  printenv
+  402  printenv
+  403  vim ~/.bash_profile 
+  404  source ~/.bash_profile 
+  405  bundle
+  406  gem env
+  407  gem list
+  408  gem 'rdoc'
+  409  gem install rdoc
+  410  jekyll -v
+  411  ruby -v
+  412  cd Projects/
+  413  ls
+  414  cd compufiber/
+  415  ls
+  416  jekyll server
+  417  jekyll install
+  418  ls
+  419  jekyll serve
+  420  ruby -v
+  421  ls
+  422  bundle -v
+  423  sudo pacman -S ruby-bundler
+  424  gem install bundler
+  425  jekyll serve
+  426  bundle init
+  427   bundle install
+  428* jekyll-sass-converter
+  429  bundle update jekyll-sass-converter
+  430   bundle install
+  431  jekyll serve
+  432  bundle exec
+  433  gem uninstall rake
+  434  bundle exec
+  435  bundle update
+  436  jekyll serve
+  437  bundle exec jekyll serve
+
