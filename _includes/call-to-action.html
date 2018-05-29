@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h4 class="section-heading">Encuentranos en aqu&iacute; - Zona Shopping Multiplaza</h4>
+                <h4 class="section-heading">Encuentranos en aqu&iacute; - Zona Shopping Multiplaza y Shopping Villamorra</h4>
                 <hr class="light">
                 <div id="map"></div>
                 <script>
@@ -10,9 +10,15 @@
                     var uluru = {lat: -25.315496, lng: -57.568381};
 
                     var map = new google.maps.Map(document.getElementById('map'), {
-                      zoom: 15,
+                      zoom: 13,
                       center: uluru
                     });
+                    var marker = new google.maps.Marker({
+                      position: uluru,
+                      map: map
+                    });
+
+                    uluru = {lat: -25.294988, lng: -57.579898};
                     var marker = new google.maps.Marker({
                       position: uluru,
                       map: map
